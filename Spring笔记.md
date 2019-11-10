@@ -112,6 +112,8 @@ Spring可以根据配置文件来决定使用哪个~！
 
 ## 2.3 Spring依赖注入
 
+ 参考博客：https://cloud.tencent.com/developer/article/1435711
+
 IOC作用：降低程序间的耦合（依赖关系）
 
 但依赖关系肯定还是会存在
@@ -208,9 +210,11 @@ IOC作用：降低程序间的耦合（依赖关系）
 </bean>
 ```
 
-![1565082193406](D:\资料存储\Spring教程\黑马Spring\【笔记过程记录】yumeiHou\pictures\1565082193406.png)
+![1565082193406](./pictures/1565082193406.png)
 
-- **使用注解注入**
+- **使用注解注入**   
+
+  @Autowired @Qualifier @Resource @Value
 
 # 三. 总结
 
