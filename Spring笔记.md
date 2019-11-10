@@ -31,7 +31,7 @@
 
 - ApplicationContext与BeanFactory 立即加载还是延迟加载
 
-![1564630049219](.\pictures\1564630049219.png)
+![1564630049219](./pictures/1564630049219.png)
 
 ApplicationContext：单例对象时适用
 
@@ -89,7 +89,7 @@ Spring可以根据配置文件来决定使用哪个~！
 
   - global-session  作用于集群环境的会话范围
 
-    ![global-session](.\pictures\global-session.png)
+    ![global-session](./pictures/global-session.png)
 
 - bean对象的生命周期
 
@@ -289,7 +289,7 @@ XML格式的配置
 *              在使用注解进行注入时，set方法就不是必须的了！
 ```
 
-![1564665747127](.\pictures\1564665747127.png)
+![1564665747127](./pictures/1564665747127.png)
 
 
 
@@ -419,7 +419,7 @@ jar包中的类用xml更方便
 
 ## 2.1 @Runner  @ContextConfiguration
 
-![1564735125656](.\pictures\1564735125656.png)
+![1564735125656](./pictures/1564735125656.png)
 
 ```java
 Spring整合Junit的配置
@@ -454,7 +454,7 @@ public class AccountServiceTest {
 
 # 一.数据库事务问题ThreadLocal
 
-![1564975974903](.\pictures\数据库事务问题.png)
+![1564975974903](./pictures/数据库事务问题.png)
 
 解决方案：把事务控制放置在业务层而不是持久层！！
 
@@ -488,7 +488,7 @@ java使用事务非常简单，首先调用**conn.setAutoCommit(boolean b)方法
 
 ## 1.1 ThreadLocal
 
-![img](D:\资料存储\Spring教程\黑马Spring\【笔记过程记录】yumeiHou\pictures\ThreadLocal)
+![img](./pictures/ThreadLocal)
 
 从上面的结构图，我们已经窥见ThreadLocal的核心机制：
 
@@ -631,9 +631,9 @@ public static void main(String[] args) {
 
 # 二. Spring中的AOP
 
-![1565007761790](.\pictures\AOP中的advice(通知or增强).png)
+![1565007761790](./pictures/AOP中的advice(通知or增强).png)
 
-![1565009678404](.\pictures\1565009678404.png)
+![1565009678404](./pictures/1565009678404.png)
 
 ## 2.1 spring基于XML的AOP配置
 
@@ -865,13 +865,13 @@ public Object aroundPrintLog(ProceedingJoinPoint pjp){
    【最终】Logger类中的aroundPrintLog方法开始打印日志了
    ```
 
-   ![1565074462273](.\pictures\1565074462273.png)
+   ![1565074462273](./pictures/1565074462273.png)
 
 # Spring第四天
 
 ## 一.Spring中的JdbcTemplate
 
-![1565079050241](D:\资料存储\Spring教程\黑马Spring\【笔记过程记录】yumeiHou\pictures\1565079050241.png)
+![1565079050241](./pictures/1565079050241.png)
 
 ## 1.1 基本用法
 
@@ -892,7 +892,7 @@ jt.execute("insert into account(name,money) values ('ddd',1000)");
 
 JdbcTemplate 与  DbUtils(QueryRunner) 的对比
 
-![1565093105508](D:\资料存储\Spring教程\黑马Spring\【笔记过程记录】yumeiHou\pictures\1565093105508.png)
+![1565093105508](./pictures/1565093105508.png)
 
 JdbcDaoSupport 可以继承减少代码重复，但是如果继承了spring提供的这个类，就没办法用注解了
 
